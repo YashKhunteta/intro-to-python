@@ -4,8 +4,9 @@ Created on Tue Mar 22 01:00:00 2022
 
 @author: abc
 """
-number1= input("Enter no1")
-number2 = input("engjfjndsf")
+x = input("Type a number: ")
+y = input("Type another number: ")
 
-sum = snumber1 + number2
-print(sum)
+sum = int(x) + int(y)
+
+print("The sum is: ", sum)
